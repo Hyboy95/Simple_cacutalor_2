@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple_Caculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <table>
+    <tr>
+      <td id="display" colspan="4"><span id="result"></span></td>
+    </tr>
+    <tr>
+      <td><button class="btn number" value="1">1</button></td>
+      <td><button class="btn number" value="2">2</button></td>
+      <td><button class="btn number" value="3">3</button></td>
+      <td><button class="btn" value="+">+</button></td>
+    </tr>
+    <tr>
+      <td><button class="btn number" value="4">4</button></td>
+      <td><button class="btn number" value="5">5</button></td>
+      <td><button class="btn number" value="6">6</button></td>
+      <td><button class="btn" value="-">-</button></td>
+    </tr>
+    <tr>
+      <td><button class="btn number" value="7">7</button></td>
+      <td><button class="btn number" value="8">8</button></td>
+      <td><button class="btn number" value="9">9</button></td>
+      <td><button class="btn" value="*">x</button></td>
+    </tr>
+    <tr>
+      <td><button class="btn" onclick="clean()">C</button></td>
+      <td><button class="btn number" value="0">0</button></td>
+      <td><button class="btn equal" onclick="equal()">=</button></td>
+      <td><button class="btn" value="/">/</button></td>
+    </tr>
+  </table>
+</div>
+</body>
+<script src="script.js"></script>
